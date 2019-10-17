@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173afaae-266e-4e06-a92d-be46eadf6997" name="Default Changelist" comment="" />
+    <list default="true" id="173afaae-266e-4e06-a92d-be46eadf6997" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/AvidMovieGoer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/AvidMovieGoer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Manager/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Manager/AccountManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AppLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AppLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Manager/AccountManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Manager/AccountManager.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +22,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,14 +38,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1QIKUj5g18HKFz6eIkYk8RMiDxD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gs-rest-service" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../helloWorld1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Manager" />
+      <recent name="Repository" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Softwares\Java projects\MovieApp\src\main\java" />
     </key>
@@ -49,8 +72,10 @@
   </component>
   <component name="RunManager">
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="AppMain" />
-      <module name="MovieAp" />
+      <module name="MovieApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,5 +98,18 @@
       <updated>1567452689515</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

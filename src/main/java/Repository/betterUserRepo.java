@@ -1,14 +1,14 @@
 package Repository;
 
 import Entity.User;
-
 import java.util.ArrayList;
 
-public class UserRepo implements UserRepoInterface {
+
+public class betterUserRepo implements UserRepoInterface {
 
     private ArrayList<User> userArrayList;
 
-    public UserRepo() {
+    public betterUserRepo() {
         userArrayList = new ArrayList<User>();
     }
 
@@ -22,6 +22,5 @@ public class UserRepo implements UserRepoInterface {
         for (int i = 0; i < userArrayList.size(); i++) {
             System.out.println(userArrayList.get(i).getName()+ "    " + userArrayList.get(i).getPhone() + " ");
         }
-        System.out.println("Using a hypothetically better User storage method. PS need to learn Spring JPA");
     }
 }

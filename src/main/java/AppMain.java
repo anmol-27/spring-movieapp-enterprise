@@ -1,6 +1,10 @@
 
 import Manager.AccountManager;
+import Manager.AccountManagerInterface;
 import Manager.TheatreManager;
+import Repository.UserRepo;
+import Repository.UserRepoInterface;
+import Repository.betterUserRepo;
 
 public class AppMain {
 
@@ -14,12 +18,14 @@ public class AppMain {
 
 class AppLauncher{
 
+    private UserRepoInterface userRepoInterface;
     private AccountManager accountManager;
     private TheatreManager theatreManager;
 
     public void start(){
 
-        accountManager = new AccountManager();
+        userRepoInterface = new UserRepo();
+        accountManager = new AccountManager(userRepoInterface);
         accountManager.addUser("Anmol", 67577447);
         accountManager.addUser("Dharmish", 44553372);
         accountManager.displayUsers();
